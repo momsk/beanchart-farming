@@ -23,8 +23,8 @@
     "web3": "^1.2.11"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "CI= GENERATE_SOURCEMAP=false react-scripts build",
+    "start": "react-scripts --openssl-legacy-provider start",
+    "build": "react-scripts --openssl-legacy-provider build",
     "build:pro": "rm -rf build* && npm run build && tar -zcvf build.tar.gz  build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",

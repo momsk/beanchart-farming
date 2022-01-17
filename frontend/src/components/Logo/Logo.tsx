@@ -8,7 +8,6 @@ const Logo: React.FC = () => {
   return (
     <StyledLogo to="/">
       <img src={logo} height="40" style={{ marginTop: -4 }} />
-      <strong>LTO</strong> Liquidity Mining
     </StyledLogo>
   )
 }
@@ -18,14 +17,14 @@ const StyledLogo = styled(Link)`
   display: flex;
   justify-content: center;
   margin: 0;
-  min-height: 44px;
+  min-height: 60px;
   min-width: 44px;
   padding: 0;
   text-decoration: none;
   font-size: 1.6em;
   color: #fff;
   font-weight: 100;
-  
+
   img {
     margin-right: 12px;
   }

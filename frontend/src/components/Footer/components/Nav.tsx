@@ -30,9 +30,6 @@ const Nav: React.FC = () => {
       >
         Farm Contract
       </StyledLink>
-      <StyledLink target="_blank" href={GITHUB}>
-        <img src={githubLogo} />
-      </StyledLink>
     </StyledNav>
   )
 }
@@ -43,7 +40,7 @@ const StyledNav = styled.nav`
 `
 
 const StyledLink = styled.a`
-  color: ${(props) => props.theme.color.grey[400]};
+  color: #8cd4e4;
   padding-left: ${(props) => props.theme.spacing[3]}px;
   padding-right: ${(props) => props.theme.spacing[3]}px;
   text-decoration: none;
