@@ -24,7 +24,7 @@ import useAllStakedValue, {
 
 import { BASIC_TOKEN } from '../../../constants/config'
 
-import imageLTO from '../../../assets/img/logo.png'
+import imageLTO from '../../../assets/img/logo-icon.png'
 
 interface FarmWithStakedValue extends Farm, StakedValue {
   apy: BigNumber
@@ -294,7 +294,7 @@ const StyledTitle = styled.h4`
 `
 
 const StyledVersion = styled.span`
-  color: rgb(23, 5, 75);
+  color: #1f4760;
   font-size: 24px;
   font-weight: 900;
   margin: ${(props) => props.theme.spacing[2]}px 0 0;

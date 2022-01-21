@@ -24,7 +24,7 @@ const PageHeader: React.FC<PageHeaderProps> = ({ icon, subtitle, title }) => {
 const StyledPageHeader = styled.div`
   width:100%;
   height: 300px;
-  background: rgb(23, 5, 75); 
+  background: #1f4760;
   align-items: center;
   box-sizing: border-box;
   display: flex;
