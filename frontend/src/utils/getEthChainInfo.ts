@@ -17,12 +17,12 @@
 export const getEthChainInfo = () => {
     let chainId: number = 97;
     let rpcUrl: string = 'https://data-seed-prebsc-1-s1.binance.org:8545/';
-    let ethscanType: string = 'testnet.';
+    let ethscanType: string = 'rinkeby.';
     const href = window.location.href;
     if (/\/\/farm.lto.network/.test(href)) {
          chainId = 56;
          rpcUrl = 'https://bsc-dataseed.binance.org/';
-         ethscanType = 'mainnet';
+         ethscanType = '';
     }
     return {
         chainId,
