@@ -65,7 +65,7 @@ const Farm: React.FC = () => {
   return (
     <>
       <PageHeader
-        subtitle={`Deposit ${lpTokenName} Tokens and earn ${earnTokenName}`}
+        subtitle={`Deposit ${lpTokenName} Tokens and earn $Lordz`}
         title={`${name} ${version}`}
       />
       <StyledFarm>

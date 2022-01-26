@@ -32,7 +32,7 @@ const Harvest: React.FC<HarvestProps> = ({ pid }) => {
         <StyledCardContentInner>
           <StyledCardHeader>
             <CardIcon>
-              <img src={imageLTO} height="50" style={{ marginTop: -4 }} />
+              <img src={imageLTO} width="100%" height="auto" style={{ marginTop: -4 }} />
             </CardIcon>
             <Value value={getDisplayBalance(earnings, 8)} />
             <Label text="LTO Earned" />

@@ -168,7 +168,8 @@ const FarmCard: React.FC<FarmCardProps> = ({ farm }) => {
             <CardIcon>
               <img
                 src={imageLTO}
-                height="50"
+                height="auto"
+                width="100%"
                 style={
                   farm.version === 'V1'
                     ? { filter: 'grayscale(1)', marginTop: -4 }
