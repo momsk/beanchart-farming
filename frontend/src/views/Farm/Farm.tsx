@@ -93,10 +93,10 @@ const Farm: React.FC = () => {
           }}
         >
           <Button
-            text="Token on Uniswap"
-            backgroundColor="#ed007a"
+            text="Token on Pancake Swap"
+            backgroundColor="rgb(31, 199, 212)"
             size="xs"
-            href={`https://v2.info.uniswap.org/token/${tokenAddress}`}
+            href={`https://pancakeswap.finance/swap?outputCurrency=${tokenAddress}`}
           />
         </div>
         <Spacer size="lg" />

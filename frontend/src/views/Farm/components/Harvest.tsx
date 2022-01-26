@@ -13,7 +13,7 @@ import Value from '../../../components/Value'
 import useEarnings from '../../../hooks/useEarnings'
 import useReward from '../../../hooks/useReward'
 
-import imageLTO from '../../../assets/img/logo.png'
+import imageLTO from '../../../assets/img/logo-rev.png'
 
 import { getDisplayBalance } from '../../../utils/formatBalance'
 

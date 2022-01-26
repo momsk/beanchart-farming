@@ -24,7 +24,7 @@ const PageHeader: React.FC<PageHeaderProps> = ({ icon, subtitle, title }) => {
 const StyledPageHeader = styled.div`
   width:100%;
   height: 300px;
-  background: #1f4760;
+  background: transparent;
   align-items: center;
   box-sizing: border-box;
   display: flex;
@@ -54,7 +54,7 @@ const StyledTitle = styled.h1`
 `
 
 const StyledSubtitle = styled.h3`
-  color: ${(props) => props.theme.color.grey[400]};
+  color: ${(props) => props.theme.color.white};
   font-size: 20px;
   font-weight: 400;
   margin: 0;

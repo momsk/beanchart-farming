@@ -7,6 +7,14 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+@media screen and (min-width: 768px) {
+  body {
+    background-image: url('https://memelordz.io/wp-content/uploads/2021/11/masthead2.jpg');
+    background-size: cover;
+    background-position: center bottom;
+  }
+}
+
 code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;

@@ -40,7 +40,7 @@ const StyledLogoWrapper = styled.div`
 `
 
 const StyledTopBar = styled.div`
-background: #0f1840;
+background: transparent;
 `
 
 const StyledTopBarInner = styled.div`

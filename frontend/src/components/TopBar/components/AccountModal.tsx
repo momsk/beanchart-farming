@@ -20,7 +20,7 @@ import Spacer from '../../Spacer'
 import Value from '../../Value'
 import {getEthChainInfo} from "../../../utils/getEthChainInfo";
 
-import imageLTO from '../../../assets/img/logo.png'
+import imageLTO from '../../../assets/img/logo-rev.png'
 
 const {
   ethscanType
@@ -47,7 +47,7 @@ const AccountModal: React.FC<ModalProps> = ({ onDismiss }) => {
         <div style={{ display: 'flex' }}>
           <StyledBalanceWrapper>
             <CardIcon>
-              <img src={imageLTO} height="100" style={{ marginTop: -4 }} />
+              <img src={imageLTO} height="60" style={{ marginTop: -4 }} />
             </CardIcon>
             <StyledBalance>
               <Value value={getBalanceNumber(erc20Balance, 8)} />
@@ -58,8 +58,8 @@ const AccountModal: React.FC<ModalProps> = ({ onDismiss }) => {
 
         <Spacer />
         <Button
-          href={`https://${ethscanType}etherscan.io/address/${account}`}
-          text="View on Etherscan"
+          href={`https://bscscan.com/address/${account}`}
+          text="View on BSC Scan"
           variant="secondary"
         />
         <Spacer />

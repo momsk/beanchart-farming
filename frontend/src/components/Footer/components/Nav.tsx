@@ -14,19 +14,14 @@ const Nav: React.FC = () => {
     <StyledNav>
       <StyledLink
         target="_blank"
-        href={`https://${ethscanType}etherscan.io/token/${contractAddressesTemp.erc20[chainId]}#code`}
+        href={`https://bscscan.com/token/${contractAddressesTemp.erc20[chainId]}#code`}
       >
-        ERC20 Contract
+        BEP-20 Contract
       </StyledLink>
+
       <StyledLink
         target="_blank"
-        href={`https://${ethscanType}etherscan.io/token/${contractAddressesTemp.erc20v2[chainId]}#code`}
-      >
-        V2 ERC20 Contract
-      </StyledLink>
-      <StyledLink
-        target="_blank"
-        href={`https://${ethscanType}etherscan.io/address/${contractAddressesTemp.farm[chainId]}#code`}
+        href={`https://bscscan.com/address/${contractAddressesTemp.farm[chainId]}#code`}
       >
         Farm Contract
       </StyledLink>
@@ -45,7 +40,8 @@ const StyledLink = styled.a`
   padding-right: ${(props) => props.theme.spacing[3]}px;
   text-decoration: none;
   &:hover {
-    color: ${(props) => props.theme.color.grey[500]};
+    color: #8cd4e4;
+    text-decoration: underline;
   }
   img {
     height: 19px;
