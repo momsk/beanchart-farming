@@ -1,2 +1,2 @@
-export const BASIC_TOKEN = 'LTO';
-export const GITHUB = 'https://github.com/ltonetwork/uniswap-farming';
+export const BASIC_TOKEN = 'LORDZ';
+export const GITHUB = 'https://github.com/makermakes/uniswap-farming';

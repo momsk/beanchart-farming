@@ -17,7 +17,7 @@
 export const getEthChainInfo = () => {
     let chainId: number = 97;
     let rpcUrl: string = 'https://data-seed-prebsc-1-s1.binance.org:8545/';
-    let ethscanType: string = 'rinkeby.';
+    let ethscanType: string = 'testnet.';
     const href = window.location.href;
     if (/\/\/staking.memelordz.io/.test(href)) {
          chainId = 56;
