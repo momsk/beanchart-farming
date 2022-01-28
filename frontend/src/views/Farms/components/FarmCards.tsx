@@ -126,7 +126,7 @@ const FarmCard: React.FC<FarmCardProps> = ({ farm }) => {
         lpTokenAddress,
         account,
       )
-      setHarvestable(bnToDec(earned, 8)) // Should get decimals from contract or config
+      setHarvestable(bnToDec(earned, 9)) // Should get decimals from contract or config
     }
     if (yam && account) {
       fetchEarned()
