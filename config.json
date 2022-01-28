@@ -3,7 +3,7 @@
     "erc20": {
       "name": "LTO Mock Token",
       "symbol": "LTO",
-      "decimals": 8,
+      "decimals": 9,
       "supply": "100000000000"
     },
     "rewardPerBlock": "10000000",
