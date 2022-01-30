@@ -35,12 +35,12 @@ const Harvest: React.FC<HarvestProps> = ({ pid }) => {
               <img src={imageLTO} width="100%" height="auto" style={{ marginTop: -4 }} />
             </CardIcon>
             <Value value={getDisplayBalance(earnings, 9)} />
-            <Label text="$Lordz Earned" />
+            <Label text="Rewards Earned" />
           </StyledCardHeader>
           <StyledCardActions>
             <Button
               disabled={!earnings.toNumber() || pendingTx}
-              text={pendingTx ? 'Collecting Lordz' : 'Harvest'}
+              text={pendingTx ? 'Collecting' : 'Harvest'}
               variant={'secondary'}
               border
               onClick={async () => {
