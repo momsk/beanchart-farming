@@ -20,15 +20,15 @@
 
 export const contractAddresses = {
   erc20: {
-    97: '0x2541be91fe0d220ffcbe65f11d88217a87a43bda',
-    56: '0x2541be91fe0d220ffcbe65f11d88217a87a43bda',
+    97: '0x4B74e109E8b0d03226224Ef2746F8C13e4c59cD4',
+    56: '0x4B74e109E8b0d03226224Ef2746F8C13e4c59cD4',
     42: '0x9C821fF00DBb2D3D2C908f39bB497766eac2d8c6',
     4: '0x7D08Dc5285A06c21aC5f4742C31B9D097607aaBc',
     1: '0x3db6ba6ab6f95efed1a6e794cad492faaabf294d',
   },
   erc20v2: {
-    97: '0x2541be91fe0d220ffcbe65f11d88217a87a43bda',
-    56: '0x2541be91fe0d220ffcbe65f11d88217a87a43bda',
+    97: '0x4B74e109E8b0d03226224Ef2746F8C13e4c59cD4',
+    56: '0x4B74e109E8b0d03226224Ef2746F8C13e4c59cD4',
     42: '0xbFd181cb0c8E23b65805Dded3863Dce6517402A7',
     4: '0xc6fDe3FD2Cc2b173aEC24cc3f267cb3Cd78a26B7',
     1: '0xd01409314acb3b245cea9500ece3f6fd4d70ea30',
@@ -51,20 +51,20 @@ export const contractAddresses = {
 
 export const supportedPools = [
   {
-    id: 'lordz',
+    id: 'ETHOS',
     version: 'V1',
-    name: 'LORDZ BEP-20',
+    name: 'ETHOS BEP-20',
     pid: 0,
     lpAddresses: {
-      97: '0x339D3D0C330A705e70F78c18C64999381Ee1910a',
-      56: '0x339D3D0C330A705e70F78c18C64999381Ee1910a',
+      97: '0xcf70687511D847E5A702B0aA8A537cd352a7257d',
+      56: '0xcf70687511D847E5A702B0aA8A537cd352a7257d',
       42: '0x74414F027FDCda5DaacFa4d35F29C0d6c5020776',
       4: '0x7D721dDB45C1eaCceD8Dc4a3698a21b93eb7f9c3',
       1: '0x9cd7403ac4856071581e1f5a298317d9a72a19cf',
     },
     tokenAddresses: { ...contractAddresses.erc20 },
-    symbol: 'LORDZ-BNB PCSV2 LP',
-    tokenSymbol: 'LORDZ',
+    symbol: 'ETHOS-BNB PCSV2 LP',
+    tokenSymbol: 'CAKE LP',
     icon: '',
     pool: '100%',
   }
