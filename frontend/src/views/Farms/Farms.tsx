@@ -26,8 +26,8 @@ const Farms: React.FC = () => {
           <>
             <Route exact path={path}>
               <PageHeader
-                title="Earn $Lordz"
-                subtitle="Earn $Lordz with Cake LP Tokens."
+                title="Earn Rewards"
+                subtitle="Earn rewards by staking Cake LP Tokens."
               />
               <StyledFarms>
                 <StyledCardsWrapper>
@@ -50,10 +50,7 @@ const Farms: React.FC = () => {
               justifyContent: 'center',
             }}
           >
-            <Button
-              onClick={onPresentWalletProviderModal}
-              text="🔓 Unlock Wallet"
-            />
+
           </div>
         )}
       </Page>
