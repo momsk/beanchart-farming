@@ -92,7 +92,7 @@ const Stake: React.FC<StakeProps> = ({ lpContract, pid, tokenName }) => {
                 disabled={requestedApproval}
                 variant={'tertiary'}
                 onClick={handleApprove}
-                text={`Approve ${tokenName}`}
+                text={`Approve`}
               />
             ) : (
               <>
