@@ -96,7 +96,7 @@ const Farm: React.FC = () => {
             text="Get LP Tokens"
             backgroundColor="rgb(31, 199, 212)"
             size="xs"
-            href={`https://pancakeswap.finance/add?outputCurrency=${tokenAddress}`}
+            href={`https://pancakeswap.finance/swap?outputCurrency=${tokenAddress}`}
           />
         </div>
         <Spacer size="lg" />
