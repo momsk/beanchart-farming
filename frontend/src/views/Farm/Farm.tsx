@@ -66,7 +66,7 @@ const Farm: React.FC = () => {
     <>
       <PageHeader
         subtitle={`Deposit ${lpTokenName} Tokens and earn rewards`}
-        title={`${name} ${version}`}
+        title={`${name}`}
       />
       <StyledFarm>
         <StyledCardsWrapper>
@@ -93,10 +93,10 @@ const Farm: React.FC = () => {
           }}
         >
           <Button
-            text="Token on Pancake Swap"
+            text="Get LP Tokens"
             backgroundColor="rgb(31, 199, 212)"
             size="xs"
-            href={`https://pancakeswap.finance/swap?outputCurrency=${tokenAddress}`}
+            href={`https://pancakeswap.finance/add?outputCurrency=${tokenAddress}`}
           />
         </div>
         <Spacer size="lg" />

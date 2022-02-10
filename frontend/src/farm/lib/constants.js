@@ -63,7 +63,7 @@ export const supportedPools = [
       1: '0x9cd7403ac4856071581e1f5a298317d9a72a19cf',
     },
     tokenAddresses: { ...contractAddresses.erc20 },
-    symbol: 'ETHOS-BNB PCSV2 LP',
+    symbol: 'ETHOS-BNB LP',
     tokenSymbol: 'CAKE LP',
     icon: '',
     pool: '100%',
