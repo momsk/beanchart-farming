@@ -9,7 +9,7 @@ body {
 
 @media screen and (min-width: 768px) {
   body {
-    background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5)),
+    background-image: linear-gradient(rgba(15, 76, 92, 0.502), rgba(251, 139, 36, 0.502)),
                   url("assets/img/stakingbg.png");
     background-size: cover;
     background-position: center bottom;
