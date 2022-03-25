@@ -25,8 +25,8 @@
     "web3-utils": "^1.6.1"
   },
   "scripts": {
-    "start": "react-scripts --openssl-legacy-provider start",
     "build": "react-scripts --openssl-legacy-provider build",
+    "start": "react-scripts --openssl-legacy-provider start",
     "build:pro": "rm -rf build* && npm run build && tar -zcvf build.tar.gz  build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
