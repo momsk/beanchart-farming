@@ -9,7 +9,8 @@ body {
 
 @media screen and (min-width: 768px) {
   body {
-    background-image: url('https://static.vecteezy.com/system/resources/previews/002/730/365/original/black-and-grey-modern-material-design-with-carbon-fibre-texture-overlapped-layers-background-abstract-widescreen-background-vector.jpg');
+    background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5)),
+                  url("assets\img\stakingbg.png");
     background-size: cover;
     background-position: center bottom;
   }
