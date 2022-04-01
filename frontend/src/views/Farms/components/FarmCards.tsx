@@ -180,7 +180,7 @@ const FarmCard: React.FC<FarmCardProps> = ({ farm }) => {
               {farm.name}
             </StyledTitle>
             <StyledDetails>
-              <StyledDetail>{'1024% APY'}</StyledDetail>
+              <StyledDetail>{'48 $BCT per block'}</StyledDetail>
             </StyledDetails>
             <Spacer />
             <Button

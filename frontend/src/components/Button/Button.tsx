@@ -36,7 +36,7 @@ const Button: React.FC<ButtonProps> = ({
   let background: string
   switch (variant) {
     case 'tertiary':
-        buttonColor = color.purple[100]
+        buttonColor = color.blue[100]
       break
     case 'secondary':
       buttonColor = color.white

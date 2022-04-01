@@ -93,7 +93,7 @@ const Farm: React.FC = () => {
           }}
         >
           <Button
-            text="Get LP Tokens"
+            text="Get $BCT"
             backgroundColor="rgb(31, 199, 212)"
             size="xs"
             href={`https://pancakeswap.finance/swap?outputCurrency=${tokenAddress}`}
