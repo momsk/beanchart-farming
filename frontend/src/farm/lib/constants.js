@@ -20,8 +20,8 @@
 
 export const contractAddresses = {
   erc20: {
-    97: '0x4B74e109E8b0d03226224Ef2746F8C13e4c59cD4',
-    56: '0x4B74e109E8b0d03226224Ef2746F8C13e4c59cD4',
+    97: '0x2B970c9d1e87b0b18A4911068A84213568696A18',
+    56: '0x2B970c9d1e87b0b18A4911068A84213568696A18',
     42: '0x9C821fF00DBb2D3D2C908f39bB497766eac2d8c6',
     4: '0x7D08Dc5285A06c21aC5f4742C31B9D097607aaBc',
     1: '0x3db6ba6ab6f95efed1a6e794cad492faaabf294d',
@@ -34,8 +34,8 @@ export const contractAddresses = {
     1: '0xd01409314acb3b245cea9500ece3f6fd4d70ea30',
   },
   farm: {
-    97: '0x9d0CfBC3ccD51563995873B6a7F0d85cBcdDeB5E',
-    56: '0x9d0CfBC3ccD51563995873B6a7F0d85cBcdDeB5E',
+    97: '0x4a48fA5Ab9468e37bAcba3d379c3129baF5aBe8A',
+    56: '0x4a48fA5Ab9468e37bAcba3d379c3129baF5aBe8A',
     42: '0xbFd181cb0c8E23b65805Dded3863Dce6517402A7',
     4: '0x0030A8A46AEA824eCA127F36d449D654cC8AC8A6',
     1: '0xbfd181cb0c8e23b65805dded3863dce6517402a7',
@@ -51,20 +51,20 @@ export const contractAddresses = {
 
 export const supportedPools = [
   {
-    id: 'ETHOS',
+    id: 'BCT',
     version: 'V1',
-    name: 'ETHOS BEP-20',
+    name: 'BCT BEP-20',
     pid: 0,
     lpAddresses: {
-      97: '0xcf70687511D847E5A702B0aA8A537cd352a7257d',
-      56: '0xcf70687511D847E5A702B0aA8A537cd352a7257d',
+      97: '0x2B970c9d1e87b0b18A4911068A84213568696A18',
+      56: '0x2B970c9d1e87b0b18A4911068A84213568696A18',
       42: '0x74414F027FDCda5DaacFa4d35F29C0d6c5020776',
       4: '0x7D721dDB45C1eaCceD8Dc4a3698a21b93eb7f9c3',
       1: '0x9cd7403ac4856071581e1f5a298317d9a72a19cf',
     },
     tokenAddresses: { ...contractAddresses.erc20 },
-    symbol: 'ETHOS-BNB LP',
-    tokenSymbol: 'CAKE LP',
+    symbol: 'BCT',
+    tokenSymbol: 'BCT',
     icon: '',
     pool: '100%',
   }

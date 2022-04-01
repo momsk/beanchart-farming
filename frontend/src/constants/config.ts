@@ -1,2 +1,2 @@
-export const BASIC_TOKEN = 'ETHOS';
-export const GITHUB = 'https://github.com/Ethos-Project/ethos-farming';
+export const BASIC_TOKEN = 'BEANCHART';
+export const GITHUB = 'https://github.com/momsk/beanchart-farming';
