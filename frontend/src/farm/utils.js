@@ -146,7 +146,7 @@ export const stake = async (farmContract, pid, amount, account) => {
   return farmContract.methods
     .deposit(
       pid,
-      new BigNumber(amount).times(new BigNumber(10).pow(18)).toString(),
+      new BigNumber(amount).times(new BigNumber(10).pow(9)).toString(),
     )
     .send({ from: account })
     .on('transactionHash', (tx) => {
